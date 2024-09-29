@@ -59,9 +59,26 @@ int main() {
 }
 ```
 
+
 Запустив эту программу, вы увидите размеры трех разных типов данных: целое число, символ и число с плавающей точкой. Размеры этих типов могут отличаться в зависимости от системы, на которой выполняется программа.
 
 Дополнительные ресурсы
+
+# Размеры типов данных в с++
+
+```
+| Тип данных | Размер (байты)|
+|----------- |---------------|
+| `bool`     | 1             |
+| `char`     | 1             |
+| `short`    | 2             |
+| `int`      | 4             |
+| `long`     | 8             |
+| `long long`| 8             |
+| `float`    | 4             |
+| `double`   | 8             |
+| `long double`| 16          |
+```
 
 - [CppReference: sizeof](https://en.cppreference.com/w/cpp/language/operator_sizeof)
 - [Stack Overflow: Разница между оператором `sizeof` и typedef](https://stackoverflow.com/questions/6789545/difference-between-sizeof-operator-and-typedef)
